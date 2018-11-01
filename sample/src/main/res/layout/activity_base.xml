@@ -11,6 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:eventTextColor="@color/darkGray"
+        app:eventCornerRadius="3dp"
         app:textSize="12sp"
         app:hourHeight="60dp"
         app:headerColumnPadding="8dp"
@@ -22,7 +23,7 @@
         app:nowLineColor="@color/red"
         app:headerRowBackgroundColor="@color/white"
         app:dayBackgroundColor="#05000000"
-        app:todayBackgroundColor="#1848adff"
+        app:todayBackgroundColor="#05000000"
         app:headerColumnBackground="#ffffffff"
         app:todayHeaderTextColor="@color/darkGray" />
 

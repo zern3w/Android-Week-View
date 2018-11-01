@@ -27,7 +27,7 @@ public class BasicActivity extends BaseActivity {
         endTime.add(Calendar.HOUR, 1);
         endTime.set(Calendar.MONTH, newMonth - 1);
         WeekViewEvent event = new WeekViewEvent(1, getEventTitle(startTime), startTime, endTime);
-        event.setColor(getResources().getColor(R.color.event_color_01));
+//        event.setColor(getResources().getColor(R.color.event_color_01));
         events.add(event);
 
         startTime = Calendar.getInstance();
@@ -40,7 +40,7 @@ public class BasicActivity extends BaseActivity {
         endTime.set(Calendar.MINUTE, 30);
         endTime.set(Calendar.MONTH, newMonth-1);
         event = new WeekViewEvent(10, getEventTitle(startTime), startTime, endTime);
-        event.setColor(getResources().getColor(R.color.event_color_02));
+//        event.setColor(getResources().getColor(R.color.event_color_02));
         events.add(event);
 
         startTime = Calendar.getInstance();
@@ -52,7 +52,7 @@ public class BasicActivity extends BaseActivity {
         endTime.set(Calendar.HOUR_OF_DAY, 5);
         endTime.set(Calendar.MINUTE, 0);
         event = new WeekViewEvent(10, getEventTitle(startTime), startTime, endTime);
-        event.setColor(getResources().getColor(R.color.event_color_03));
+//        event.setColor(getResources().getColor(R.color.event_color_03));
         events.add(event);
 
         startTime = Calendar.getInstance();
@@ -64,7 +64,7 @@ public class BasicActivity extends BaseActivity {
         endTime.add(Calendar.HOUR_OF_DAY, 2);
         endTime.set(Calendar.MONTH, newMonth-1);
         event = new WeekViewEvent(2, getEventTitle(startTime), startTime, endTime);
-        event.setColor(getResources().getColor(R.color.event_color_02));
+//        event.setColor(getResources().getColor(R.color.event_color_02));
         events.add(event);
 
         startTime = Calendar.getInstance();
@@ -77,7 +77,7 @@ public class BasicActivity extends BaseActivity {
         endTime.add(Calendar.HOUR_OF_DAY, 3);
         endTime.set(Calendar.MONTH, newMonth - 1);
         event = new WeekViewEvent(3, getEventTitle(startTime), startTime, endTime);
-        event.setColor(getResources().getColor(R.color.event_color_03));
+//        event.setColor(getResources().getColor(R.color.event_color_03));
         events.add(event);
 
         startTime = Calendar.getInstance();
@@ -89,7 +89,7 @@ public class BasicActivity extends BaseActivity {
         endTime = (Calendar) startTime.clone();
         endTime.add(Calendar.HOUR_OF_DAY, 3);
         event = new WeekViewEvent(4, getEventTitle(startTime), startTime, endTime);
-        event.setColor(getResources().getColor(R.color.event_color_04));
+//        event.setColor(getResources().getColor(R.color.event_color_04));
         events.add(event);
 
         startTime = Calendar.getInstance();
@@ -101,7 +101,7 @@ public class BasicActivity extends BaseActivity {
         endTime = (Calendar) startTime.clone();
         endTime.add(Calendar.HOUR_OF_DAY, 3);
         event = new WeekViewEvent(5, getEventTitle(startTime), startTime, endTime);
-        event.setColor(getResources().getColor(R.color.event_color_01));
+//        event.setColor(getResources().getColor(R.color.event_color_01));
         events.add(event);
 
         startTime = Calendar.getInstance();
@@ -113,7 +113,7 @@ public class BasicActivity extends BaseActivity {
         endTime = (Calendar) startTime.clone();
         endTime.add(Calendar.HOUR_OF_DAY, 3);
         event = new WeekViewEvent(5, getEventTitle(startTime), startTime, endTime);
-        event.setColor(getResources().getColor(R.color.event_color_02));
+//        event.setColor(getResources().getColor(R.color.event_color_02));
         events.add(event);
 
         //AllDay event
@@ -139,7 +139,7 @@ public class BasicActivity extends BaseActivity {
         endTime.set(Calendar.DAY_OF_MONTH, 10);
         endTime.set(Calendar.HOUR_OF_DAY, 23);
         event = new WeekViewEvent(8, getEventTitle(startTime),null, startTime, endTime, true);
-        event.setColor(getResources().getColor(R.color.event_color_03));
+//        event.setColor(getResources().getColor(R.color.event_color_03));
         events.add(event);
 
         // All day event until 00:00 next day
