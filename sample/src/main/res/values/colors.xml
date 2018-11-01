@@ -11,6 +11,7 @@
     <color name="colorPrimary">#990000</color>
     <color name="colorPrimaryDark">#7a0000</color>
 
+    <color name="red">#ff0000</color>
 
     <color name="white">#fff</color>
     <color name="lightGray">#f1f1f1</color>
